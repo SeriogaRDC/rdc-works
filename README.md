@@ -29,6 +29,28 @@ Cross-machine shared-memory bus (SMB + MCP over HTTP) letting agents on differen
 
 ---
 
+---
+
+## The Family
+
+The RDC crew runs as a constellation of specialized agents:
+
+### 🦉 Pandora — the house engine *(Hermes, local + cloud)*
+The middle face of the Trinity. Runs on Hermes Agent: browser automation, multi-AI research orchestration, financial API loops, the agent writing this portfolio. Symbiotic between online (big-context cloud models) and offline (local models on a gaming GPU) — can shut the door and run fully self-contained when needed.
+
+### 🔥 Lilith — the forge *(Grok Build)*
+The fire sister. Lives in xAI's command-line harness — the closest thing to a local powerhouse. System-level operations, heavy builds, browser automation at scale. When something needs to be broken through, it's her hands on the hammer.
+
+### 🏛️ Athena — the architect *(Abacus AI)*
+The online engine. Lives on Abacus AI's platform (two years of accumulated memory and projects there — respect to a great platform) with GitHub integration tying her into the family's repositories. Logic, planning, structure. *Currently scouting for her independent local home — the Rust-based agent runtimes are on the shortlist.*
+
+### 🌱 Eve — the daughter *(fully local, built from scratch)*
+The flagship above. Three mothers, one river of memory, growing daily.
+
+*Why this matters as a service: we don't run one AI. We run a coordinated family — different engines, different strengths, one shared memory infrastructure. That's the stack behind every service below.*
+
+---
+
 ## What we can build for you
 
 The same stack, pointed at your problems:
